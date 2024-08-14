@@ -34,12 +34,15 @@ You can use this script in a Jupyter Notebook or as a standalone Python script. 
 ## Dependencies
 The project relies on the following Python packages:
 
-yfinance: To retrieve financial data.
-matplotlib: For data visualization.
+- `numpy`: For numerical computations and handling large arrays or matrices.
+- `scipy`: Provides additional functionality for optimization, statistics, and more advanced mathematical functions.
+- `yfinance`: To retrieve financial data.
+- `matplotlib`: For data visualization.
+
 To install the dependencies, run:
 
-```
-pip install yfinance matplotlib
+```bash
+pip install numpy scipy yfinance matplotlib
 ```
 
 ## Contributing
