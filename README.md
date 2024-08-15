@@ -48,25 +48,15 @@ You can use this script in a Jupyter Notebook or as a standalone Python script. 
 2. Run the cells in the notebook sequentially to perform stock option pricing, and implied volatility calculation, and to plot the volatility smile.
 
 ## Functionality
-1. get_option_data(option_ticker)
+1. **get_option_data(option_ticker)**: Fetches the underlying stock data and option-specific details such as strike price, expiration date, risk-free rate, and dividend yield.
 
-Fetches the underlying stock data and option-specific details such as strike price, expiration date, risk-free rate, and dividend yield.
+2. **black_scholes_price(...)**: Computes the price of a call or put options using the Black-Scholes formula, taking into account the continuous dividend yield.
 
-2. black_scholes_price(...)
+3. **implied_volatility(...)**: Estimates the implied volatility by minimizing the difference between the market price of the option and the price calculated using the Black-Scholes model.
 
-Computes the price of a call or put options using the Black-Scholes formula, taking into account the continuous dividend yield.
+4. **monte_carlo_option_price(...)**: Utilizes Monte Carlo Simulation to estimate the price of the option by simulating multiple future price paths of the underlying asset.
 
-3. implied_volatility(...)
-
-Estimates the implied volatility by minimizing the difference between the market price of the option and the price calculated using the Black-Scholes model.
-
-4. monte_carlo_option_price(...)
-
-Utilizes Monte Carlo Simulation to estimate the price of the option by simulating multiple future price paths of the underlying asset.
-
-5. plot_volatility_smile(stock_ticker, expiration_date, option_type)
-
-Plots the volatility smile, showing the relationship between different strike prices and their respective implied volatilities for either call or put options.
+5. **plot_volatility_smile(stock_ticker, expiration_date, option_type)**: Plots the volatility smile, showing the relationship between different strike prices and their respective implied volatilities for either call or put options.
 
 ### Example Output
 ```
@@ -81,9 +71,12 @@ Dividend Yield: 0.45%
 Calculated Implied Volatility: 21.94%
 ```
 **Monte Carlo Simulation Price**
+
 Monte Carlo Price: $2.60
-Option Status: Overpriced (compared to the Monte Carlo estimate)
+Option Status: Option is overpriced (compared to the Monte Carlo estimate)
+
 **Volatility Smile Plot**
+
 The plot illustrates the implied volatility across different strike prices, helping to identify patterns such as the volatility smile or skew.
 
 ## Contributing
