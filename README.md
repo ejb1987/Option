@@ -49,18 +49,23 @@ You can use this script in a Jupyter Notebook or as a standalone Python script. 
 
 ## Functionality
 1. get_option_data(option_ticker)
-\n Fetches the underlying stock data and option-specific details such as strike price, expiration date, risk-free rate, and dividend yield.
+
+Fetches the underlying stock data and option-specific details such as strike price, expiration date, risk-free rate, and dividend yield.
 
 2. black_scholes_price(...)
+
 Computes the price of a call or put options using the Black-Scholes formula, taking into account the continuous dividend yield.
 
 3. implied_volatility(...)
+
 Estimates the implied volatility by minimizing the difference between the market price of the option and the price calculated using the Black-Scholes model.
 
 4. monte_carlo_option_price(...)
+
 Utilizes Monte Carlo Simulation to estimate the price of the option by simulating multiple future price paths of the underlying asset.
 
 5. plot_volatility_smile(stock_ticker, expiration_date, option_type)
+
 Plots the volatility smile, showing the relationship between different strike prices and their respective implied volatilities for either call or put options.
 
 ### Example Output
