@@ -78,6 +78,7 @@ Option Status: Option is overpriced (compared to the Monte Carlo estimate)
 **Volatility Smile Plot**
 
 The plot illustrates the implied volatility across different strike prices, helping to identify patterns such as the volatility smile or skew.
+![image](https://github.com/user-attachments/assets/6e94dfd1-a1e9-4106-ac74-1f52a0841417)
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
