@@ -7,7 +7,7 @@ This repository contains a Jupyter Notebook that enables users to analyze and pr
 - [Installation](#installation)
 - [Dependencies](#dependencies)
 - [Usage](#usage)
-- [Functionality Overview](#functionality_overview)
+- [Functionality Overview](#functionality)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
@@ -44,7 +44,7 @@ pip install numpy scipy yfinance matplotlib
 You can use this script in a Jupyter Notebook or as a standalone Python script. Below is a guide on how to run the script.
 
 ### Running the Script
-1. Open the Jupyter notebook Option.ipynb.
+1. Open the Jupyter Notebook Option.ipynb.
 2. Run the cells in the notebook sequentially to perform stock option pricing, and implied volatility calculation, and to plot the volatility smile.
 
 ## Functionality Overview
