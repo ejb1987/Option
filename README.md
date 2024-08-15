@@ -7,7 +7,7 @@ This repository contains a Jupyter Notebook that enables users to analyze and pr
 - [Installation](#installation)
 - [Dependencies](#dependencies)
 - [Usage](#usage)
-- [Functionality Overview](#functionality)
+- [Functionality](#functionality)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
@@ -47,9 +47,9 @@ You can use this script in a Jupyter Notebook or as a standalone Python script. 
 1. Open the Jupyter Notebook Option.ipynb.
 2. Run the cells in the notebook sequentially to perform stock option pricing, and implied volatility calculation, and to plot the volatility smile.
 
-## Functionality Overview
+## Functionality
 1. get_option_data(option_ticker)
-Fetches the underlying stock data and option-specific details such as strike price, expiration date, risk-free rate, and dividend yield.
+\n Fetches the underlying stock data and option-specific details such as strike price, expiration date, risk-free rate, and dividend yield.
 
 2. black_scholes_price(...)
 Computes the price of a call or put options using the Black-Scholes formula, taking into account the continuous dividend yield.
